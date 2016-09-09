@@ -11,6 +11,7 @@ Tap into the power of machine learning with easy-to-use REST APIs. [Get started]
 |Name|Link|Library info|Contains|
 |----|----|----|---|
 |Computer vision|[link](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#computer-vision)|True|
+|Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|True|
 
 ***
 
@@ -44,6 +45,31 @@ func main() {
             Adult: true,
             Tags:  true,
         })
+    if err != nil {
+        panic(err)
+    }
+
+    fmt.Println(result)
+}
+```
+
+### Emotion
+
+```bash
+  go get github.com/ahmdrz/microsoft-cognitive-services/emotion
+```
+
+Sample 
+
+```go
+func main() {
+    fmt.Println("Hello World!")
+    emo, err := emotion.New("<KEY>")
+    if err != nil {
+        panic(err)
+    }
+
+    result, err := emo.Recognize("https://portalstoragewuprod.azureedge.net/emotion/recognition1.jpg")
     if err != nil {
         panic(err)
     }
