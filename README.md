@@ -77,3 +77,11 @@ func main() {
     fmt.Println(result)
 }
 ```
+
+### License
+
+Visit license file
+
+### Contrib
+
+Help me to improve it by pull requests.
