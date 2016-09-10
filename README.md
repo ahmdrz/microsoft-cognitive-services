@@ -5,6 +5,8 @@ Put intelligence APIs to work, Full library for microsoft cognitive services
 
 ***
 
+*I will improve this library just for improve my dominance on Golang.*
+
 Tap into the power of machine learning with easy-to-use REST APIs. [Get started](https://www.microsoft.com/cognitive-services)
 
 ### List of APIs :
