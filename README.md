@@ -8,10 +8,11 @@ Put intelligence APIs to work, Full library for microsoft cognitive services
 Tap into the power of machine learning with easy-to-use REST APIs. [Get started](https://www.microsoft.com/cognitive-services)
 
 ### List of APIs :
-|Name|Link|Library info|Contains|
-|----|----|----|---|
-|Computer vision|[link](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#computer-vision)|True|
-|Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|True|
+|Name|Link|Library info|Contains|Coverage percent|
+|----|----|----|---|---|
+|Computer vision|[link](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#computer-vision)|True|90%|
+|Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|True|60%|
+|Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|True|10%|
 
 ***
 
@@ -76,6 +77,18 @@ func main() {
 
     fmt.Println(result)
 }
+```
+
+### Face
+
+```bash
+  go get github.com/ahmdrz/microsoft-cognitive-services/face
+```
+
+Sample 
+
+```go
+  \\ please wait ... :smile:
 ```
 
 ### License
