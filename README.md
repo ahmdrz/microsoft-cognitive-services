@@ -12,7 +12,7 @@ Tap into the power of machine learning with easy-to-use REST APIs. [Get started]
 |----|----|----|---|---|
 |Computer vision|[link](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#computer-vision)|True|90%|
 |Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|True|60%|
-|Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|True|10%|
+|Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|True|10%|
 
 ***
 
