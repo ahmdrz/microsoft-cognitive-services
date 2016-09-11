@@ -14,7 +14,7 @@ Tap into the power of machine learning with easy-to-use REST APIs. [Get started]
 |----|----|----|---|---|
 |Computer vision|[link](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#computer-vision)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/computer-vision?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/computer-vision)|![Progress](http://progressed.io/bar/90)|
 |Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/emotion?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/emotion) |![Progress](http://progressed.io/bar/60)|
-|Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face) |![Progress](http://progressed.io/bar/10)|
+|Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face) |![Progress](http://progressed.io/bar/18)|
 
 ***
 
