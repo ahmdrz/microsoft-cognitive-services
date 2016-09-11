@@ -83,3 +83,19 @@ type FaceDetect struct {
 	FaceLandmarks  FaceLandmarks  `json:"faceLandmarks"`
 	FaceAttributes FaceAttributes `json:"faceAttributes"`
 }
+
+type DetectOrder struct {
+	FaceID         bool
+	FaceAttributes bool
+	FaceLandmarks  bool
+}
+
+func (order DetectOrder) String() string {
+	boolToString := func(i bool) string {
+		if i {
+			return "true"
+		}
+		return "false"
+	}
+	return "returnFaceId=" + boolToString(order.FaceID) + "&returnFaceLandmarks=" + boolToString(order.FaceLandmarks)
+}

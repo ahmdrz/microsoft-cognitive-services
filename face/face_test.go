@@ -1,6 +1,7 @@
 package face
 
 import (
+	"fmt"
 	_ "fmt"
 	"testing"
 )
@@ -13,4 +14,22 @@ func TestNew(t *testing.T) {
 		t.Log(err)
 		return
 	}
+}
+
+func TestDetect(t *testing.T) {
+	face, err := New(key)
+	if err != nil {
+		t.Log(err)
+		return
+	}
+	result, err := face.Detect("https://portalstoragewuprod.azureedge.net/media/Default/Documentation/Face/Images/FaceFindSimilar.QueryFace.jpg",
+		DetectOrder{
+			FaceAttributes: true,
+		},
+	)
+	if err != nil {
+		t.Log(err)
+		return
+	}
+	fmt.Println(result)
 }
