@@ -70,6 +70,15 @@ func main() {
 Sample 
 
 ```go
+// test project main.go
+package main
+
+import (
+    "fmt"
+
+    "github.com/ahmdrz/microsoft-cognitive-services/emotion"
+)
+
 func main() {
     fmt.Println("Hello World!")
     emo, err := emotion.New("<KEY>")
@@ -95,9 +104,18 @@ func main() {
 Sample 
 
 ```go
-  func main() {
-    fmt.Println("Hello World!")
-	facevar, err := face.New("<KEY>")
+// test project main.go
+package main
+
+import (
+    "fmt"
+
+    "github.com/ahmdrz/microsoft-cognitive-services/face"
+)
+
+func main() {
+  	fmt.Println("Hello World!")
+  	facevar, err := face.New("<KEY>")
 	if err != nil {
 		panic(err)
 	}
@@ -117,7 +135,7 @@ Sample
 	for _, result := range results {
 		fmt.Println(result.FaceAttributes.Age)
 	}
-  }
+}
 ```
 
 ### License
