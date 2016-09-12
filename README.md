@@ -1,11 +1,14 @@
 # microsoft-cognitive-services
-Put intelligence APIs to work, Full library for microsoft cognitive services
+> Put intelligence APIs to work, Full library for microsoft cognitive services
 
 [![Build Status](https://travis-ci.org/ahmdrz/microsoft-cognitive-services.svg?branch=master)](https://travis-ci.org/ahmdrz/microsoft-cognitive-services)
+![Progress](http://progressed.io/bar/15)
 
 ***
 
 *I will improve this library just for improve my dominance on Golang.*
+
+<a href="https://imgflip.com/i/1ag7x6"><img src="https://i.imgflip.com/1ag7x6.jpg" title="made at imgflip.com"/></a>
 
 Tap into the power of machine learning with easy-to-use REST APIs. [Get started](https://www.microsoft.com/cognitive-services)
 
