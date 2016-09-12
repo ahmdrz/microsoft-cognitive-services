@@ -9,6 +9,8 @@ Put intelligence APIs to work, Full library for microsoft cognitive services
 
 Tap into the power of machine learning with easy-to-use REST APIs. [Get started](https://www.microsoft.com/cognitive-services)
 
+**Subscription key** : Subscription key which provides access to this API. Found in your subscriptions.
+
 ### List of APIs :
 |Name|Link|Library info|Reference|Coverage percent|
 |----|----|----|---|---|
@@ -90,7 +92,29 @@ func main() {
 Sample 
 
 ```go
-  \\ please wait ... :smile:
+  func main() {
+    fmt.Println("Hello World!")
+	facevar, err := face.New("<KEY>")
+	if err != nil {
+		panic(err)
+	}
+
+	results, err := facevar.Detect("https://portalstoragewuprod.azureedge.net/media/Default/Documentation/Face/Images/FaceFindSimilar.QueryFace.jpg",
+		face.DetectOrder{
+			FaceLandmarks: true,
+			FaceAttributes: face.FaceAttributesOrder{
+				Age: true,
+			},
+		},
+	)
+	if err != nil {
+		panic(err)
+	}
+
+	for _, result := range results {
+		fmt.Println(result.FaceAttributes.Age)
+	}
+  }
 ```
 
 ### License
