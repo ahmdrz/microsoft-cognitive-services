@@ -8,6 +8,14 @@ import (
 
 var key string = "-" // this code is sample , forget this :) my token has been changed !
 
+func TestOrder(t *testing.T) {
+	test := FaceAttributesOrder{
+		Age:    true,
+		Gender: true,
+	}
+	fmt.Println(test.String())
+}
+
 func TestNew(t *testing.T) {
 	_, err := New(key)
 	if err != nil {
@@ -24,7 +32,7 @@ func TestDetect(t *testing.T) {
 	}
 	result, err := face.Detect("https://portalstoragewuprod.azureedge.net/media/Default/Documentation/Face/Images/FaceFindSimilar.QueryFace.jpg",
 		DetectOrder{
-			FaceAttributes: true,
+			FaceLandmarks: true,
 		},
 	)
 	if err != nil {
