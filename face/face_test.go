@@ -33,6 +33,9 @@ func TestDetect(t *testing.T) {
 	result, err := face.Detect("https://portalstoragewuprod.azureedge.net/media/Default/Documentation/Face/Images/FaceFindSimilar.QueryFace.jpg",
 		DetectOrder{
 			FaceLandmarks: true,
+			FaceAttributes: FaceAttributesOrder{
+				Age: true,
+			},
 		},
 	)
 	if err != nil {
