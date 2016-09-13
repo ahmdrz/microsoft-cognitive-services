@@ -8,7 +8,7 @@
 
 *I will improve this library just for improve my dominance on Golang.*
 
-<a href="https://imgflip.com/i/1ag7x6"><img src="https://i.imgflip.com/1ag7x6.jpg" title="made at imgflip.com"/></a>
+<img src="https://i.imgflip.com/1ag7x6.jpg"/>
 
 Tap into the power of machine learning with easy-to-use REST APIs. [Get started](https://www.microsoft.com/cognitive-services)
 
@@ -20,6 +20,7 @@ Tap into the power of machine learning with easy-to-use REST APIs. [Get started]
 |Computer vision|[link](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#computer-vision)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/computer-vision?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/computer-vision)|![Progress](http://progressed.io/bar/90)|
 |Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/emotion?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/emotion) |![Progress](http://progressed.io/bar/60)|
 |Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face) |![Progress](http://progressed.io/bar/18)|
+|WebSearch|[link](https://www.microsoft.com/cognitive-services/en-us/bing-web-search-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#websearch)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/web-search?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/web-search) |![Progress](http://progressed.io/bar/60)|
 
 ***
 
