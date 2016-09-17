@@ -12,8 +12,8 @@ type Error struct {
 
 const (
 	URL        string = "https://api.cognitive.microsoft.com/bing/v5.0"
-	MODE_SPELL string = "Spell"
-	MODE_PROOF string = "Proof"
+	MODE_SPELL string = "spell"
+	MODE_PROOF string = "proof"
 )
 
 type Result struct {

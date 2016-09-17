@@ -13,6 +13,6 @@ func TestCheck(t *testing.T) {
 		t.Log(err)
 		return
 	}
-	result, err := spell.Check("Gates", MODE_SPELL)
-	fmt.Println(result)
+	result, err := spell.Check("Richard Stalman", MODE_SPELL)
+	fmt.Println(result, err)
 }

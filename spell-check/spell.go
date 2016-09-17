@@ -19,7 +19,7 @@ func New(key string) (*Spell, error) {
 }
 
 func (spell *Spell) Check(word string, mode string) (Result, error) {
-	apiURL := URL + "/spellcheck?mode=" + mode
+	apiURL := URL + "/spellcheck/?mode=" + mode
 	data := url.Values{}
 	data.Set("Text", word)
 	req, err := http.NewRequest("POST", apiURL, bytes.NewBufferString(data.Encode()))
@@ -34,9 +34,10 @@ func (spell *Spell) Check(word string, mode string) (Result, error) {
 		return Result{}, err
 	}
 	defer resp.Body.Close()
+	body, _ := ioutil.ReadAll(resp.Body)
+	fmt.Println(string(body))
 
 	if resp.StatusCode == 200 {
-		body, _ := ioutil.ReadAll(resp.Body)
 		result := Result{}
 		err = json.Unmarshal(body, &result)
 		if err != nil {
