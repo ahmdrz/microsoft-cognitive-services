@@ -2,7 +2,6 @@ package face
 
 import (
 	"fmt"
-	_ "fmt"
 	"testing"
 )
 
