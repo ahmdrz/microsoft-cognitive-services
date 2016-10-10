@@ -62,6 +62,38 @@ func main() {
 }
 ```
 
+Also you can upload your images , Here is a sample code :
+
+```go
+// test project main.go
+package main
+
+import (
+    "fmt"
+
+    "github.com/ahmdrz/microsoft-cognitive-services/computer-vision"
+)
+
+func main() {
+    fmt.Println("Hello World!")
+    vis, err := vision.New("<KEY>")
+    if err != nil {
+        panic(err)
+    }
+
+    result, err := vis.AnalyzeFile("test.jpg",
+        vision.VisualFeatures{
+            Adult: true,
+            Tags:  true,
+        })
+    if err != nil {
+        panic(err)
+    }
+
+    fmt.Println(result)
+}
+```
+
 ### Emotion
 
 ```bash
