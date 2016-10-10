@@ -21,6 +21,7 @@ Tap into the power of machine learning with easy-to-use REST APIs. [Get started]
 |Emotion|[link](https://www.microsoft.com/cognitive-services/en-us/emotion-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#emotion)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/emotion?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/emotion) |![Progress](http://progressed.io/bar/60)|
 |Face|[link](https://www.microsoft.com/cognitive-services/en-us/face-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#face)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/face) |![Progress](http://progressed.io/bar/18)|
 |Spell check|[link](https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#spell)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/spell-check?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/spell-check) |![Progress](http://progressed.io/bar/60)|
+|Academic|[link](https://www.microsoft.com/cognitive-services/en-us/academic-knowledge-api)|[see](https://github.com/ahmdrz/microsoft-cognitive-services#academic)|[![GoDoc](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/academic?status.svg)](https://godoc.org/github.com/ahmdrz/microsoft-cognitive-services/academic) |![Progress](http://progressed.io/bar/33)|
 
 ***
 
@@ -170,6 +171,17 @@ func main() {
 	}
 }
 ```
+
+
+### Academic
+
+```bash
+  go get github.com/ahmdrz/microsoft-cognitive-services/academic
+```
+
+Sample 
+
+*Under Construction :smile:*
 
 ### License
 
